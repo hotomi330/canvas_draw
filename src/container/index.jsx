@@ -3,8 +3,7 @@ import Draw from "./draw";
 
 const Index = () => {
   const drawRef = useRef();
-  const src =
-    "http://ow-prod.oss-cn-beijing.aliyuncs.com/platform_id_957/app_id_975/roled_user_id_46526/type_0/6960de0aeaea427abcc62e4c348a1b2c.jpeg";
+  const src = "./test.jpeg";
   const save = () => {
     // console.log("drawref", drawRef);
     const r = drawRef.current.getFile();
