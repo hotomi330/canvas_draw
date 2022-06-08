@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import Draw from "./draw";
+import Draw from "../draw";
 
 const Index = () => {
   const drawRef = useRef();
